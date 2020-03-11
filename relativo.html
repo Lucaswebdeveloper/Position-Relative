@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprenda Position CSS</title>
+    <style>
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        border: 1px solid black;
+
+    }
+
+    html{
+        border: 10px solid red;
+        margin-top: 40px;
+
+    }
+    p {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        background-color: purple;
+        color:rgb(255, 255, 255);
+
+    }
+   #relative {
+       /* referencial:canto siperior esquedo de si próprio */
+        position: relative;
+        top: 20px;
+        left: 20px;
+    }
+
+    
+
+       
+
+    </style>
+</head>
+
+<body>
+    <H1>Aprenda a técnica de Position</H1>
+
+    <div id="container">
+        <p>Paragrafo1</p>
+        <p id="relative">Paragrafo2</p>
+        <p id="">Paragrafo3</p>
+    </div>
+    
+</body>
+</html>
